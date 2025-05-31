@@ -56,9 +56,10 @@ $$
 
     where m is the number of training samples.
 
-- Loss function (Binary Cross-Entropy):
+- **Loss function (Binary Cross-Entropy):**
 
 The goal is to maximize the likelihood of correct classification, equivalently minimize the loss:
+
 $$
 J(w,b)=\frac{−1}{m}\sum_{i=1}^m [y^{(i)}log⁡p^{(i)}+(1−y^{(i)})log⁡(1−p^{(i)})]
 $$
