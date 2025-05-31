@@ -54,7 +54,7 @@ $$
 J = - \frac{1}{m} \sum_{i=1}^m \left[ y_i \log(\hat{y}_i) + (1-y_i) \log(1 - \hat{y}_i) \right]
 $$
 
-    where m is the number of training samples.
+where m is the number of training samples.
 
 - **Loss function (Binary Cross-Entropy):**
 
@@ -73,7 +73,8 @@ Predict the probability of a binary outcome $$y∈{0,1}$$ given input features x
 #### Model:
 
 First compute a linear combination:
-$$ z=w⋅x+b $$
+
+$$z=w⋅x+b$$
 
 Then apply the sigmoid function to map z to a probability $$p∈(0,1)$$
 
@@ -94,9 +95,11 @@ $$
 $$
 
 Update parameters iteratively:
+
 $$
 w_j:=w_j-α \frac{∂J}{∂w_j}
 $$
+
 $$
 b:=b-α \frac{∂J}{∂b}
 $$
